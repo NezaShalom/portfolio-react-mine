@@ -1,0 +1,75 @@
+/* .dev-icons {
+  padding-left: 0;
+  list-style: none;
+  font-size: 3rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: left;
+}
+
+.software-skill-inline {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.software-skill-inline>i {
+  color: #868e96;
+}
+
+.software-skill-inline>i:hover {
+  color: #645beb;
+}
+
+.software-skill-inline>p {
+  color: #868e96;
+  font-size: 10px;
+}
+
+.software-skill-inline>i:hover~p {
+  color: #645beb;
+}
+
+@media (max-width: 768px) {
+  .dev-icons {
+    padding-left: 0;
+    list-style: none;
+    font-size: 3rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+  }
+} */
+
+/* ===== SKILLS =====*/
+.skills__container {
+  row-gap: 2rem;
+}
+
+.skills__box {
+  text-align: left;
+}
+
+.skills__subtitle {
+  color: var(--first-color);
+  margin-bottom: 1.5rem;
+}
+
+.skills__name {
+  display: inline-block;
+  font-size: 0.87rem;
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 0.30rem 0.5rem;
+  background-color: #e7e7e7;
+  border-radius: 0.25rem;
+}
+
+.skills__name:hover {
+  background-color: #6600ff;
+  color: white;
+}
+
+.skills__img img {
+  border-radius: 0.5rem;
+}
