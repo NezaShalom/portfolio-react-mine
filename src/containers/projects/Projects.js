@@ -3,6 +3,7 @@ import "./Project.css";
 import {Fade} from "react-reveal";
 import img1 from '../../assets/images/rtwo.jpg'
 import img2 from '../../assets/images/rthree.png'
+import img3 from '../../assets/images/shop.jpg'
 
 function Projects() {
   return (
@@ -16,45 +17,37 @@ function Projects() {
           <img src={img2} alt="" />
 
           <div className="portfolio__link">
-            <a href="https://expo.io/@bienaime/projects/diary-app" className="portfolio__link-name"><span>React Native,
+            <p className="portfolio__link-name"><span>React Native,
                 Redux, Node, Firebase </span>
-                <span><p className="live-version">Click Here</p></span>
-              </a>
+                
+              </p>
           </div>
           <p><span className="portfolio__link-name">TEGA-withus App (IOS & Android)</span>
-            <br /><br />Document your daily life experience, research, todos and much more. My diary App helps you to create
-            and save everything you might need in the future. Remember, memories last forever. Do you want to keep track
-            of your daily improvement on any task, it’s simple, use My Diary App it’s free and very useful.</p>
+            <br /><br />TEGAWiTH-US is a rider app to request a ride. your app displays an estimated time of arrival to your destiny, display google metrics, calculate price.</p>
         </div>
         <div className="portfolio__img">
           <img src={img1} alt="" />
 
           <div className="portfolio__link">
-            <a href="https://expo.io/@bienaime/easyShop" className="portfolio__link-name"><span>Node, Express, React
-                Native</span>
-                <span><p   className="live-version">Click Here</p></span>
-              </a>
+            <p className="portfolio__link-name"><span>Laravel, AJAX
+              </span>
+                
+              </p>
           </div>
-          <p><span className="portfolio__link-name">IremboGov Anomalies Detector</span><br /> This is a marketplace
-            for selling and
-            buying quality products. With this app you can buy unique and high value product at any price.
-            Additionally, you can also earn money by selling your items to whole world</p>
+          <p><span className="portfolio__link-name">IremboGov Anomalies Detector</span><br /><br />This system is able to process the identified data points that deviate from a dataset’s normal behavior including clients requests to system. </p>
         </div>
 
         <div className="portfolio__img">
-          <img src="../../assets/images/ad.png" alt="hoe" />
+          <img src={img3} alt="" />
 
           <div className="portfolio__link">
-            <a href="https://beach-resort-app.herokuapp.com/" className="portfolio__link-name"><span>HTML, CSS &
+            <p className="portfolio__link-name"><span>React, NextJS, Redux & Google Auth
                 React</span>
-                <span><p   className="live-version">Click Here</p></span>
-              </a>
+              </p>
           </div>
-          <p><span className="portfolio__link-name">Beach Resort</span>
-            <br />
-            In case you want to have a nice, calm amd cheerful relaxation, this is the best place to find luxurious
-            rooms that are
-            extremely comfortable with best services.</p>
+          <p><span className="portfolio__link-name">E-comerce</span>
+            <br /><br />
+            This is a marketplace site for selling and buying products. one can add to the cart, checkout. Additionally, you can also earn coupon due to the users track record.</p>
         </div>
       </div>
       </section>

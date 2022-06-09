@@ -2,9 +2,6 @@
   display: flex;
 }
 
-
-
-
 .skills-text-subtitle {
   text-align: left;
 }
@@ -17,6 +14,7 @@
 .skills-image-div>img {
   max-width: 100%;
   height: auto;
+
 }
 
 .skills-heading {
