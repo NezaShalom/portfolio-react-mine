@@ -1,7 +1,6 @@
 import React, {useContext} from "react";
 import Headroom from "react-headroom";
 import "./Header.css";
-import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 
 
@@ -25,7 +24,7 @@ function Header() {
 
   return (
     <Headroom>
-      <header className={isDark ? "dark-menu header" : "header"}>
+      <header className={isDark ? "header" : "header"}>
         <a href="/" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
@@ -75,11 +74,6 @@ function Header() {
             <a href="#contact">Contact Me</a>
           </li>
           
-          {/* <li>
-            <a href="#">
-              <ToggleSwitch />
-            </a>
-          </li> */}
         </ul>
       </header>
     </Headroom>

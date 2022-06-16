@@ -41,13 +41,12 @@ function Projects() {
           <img src={img3} alt="" />
 
           <div className="portfolio__link">
-            <p className="portfolio__link-name"><span>React, NextJS, Redux & Google Auth
-                React</span>
+            <p className="portfolio__link-name"><span>React, NextJS, Redux & Google Auth</span>
               </p>
           </div>
-          <p><span className="portfolio__link-name">E-comerce</span>
+          <p><span className="portfolio__link-name">Cagura E-comerce</span>
             <br /><br />
-            This is a marketplace site for selling and buying products. one can add to the cart, checkout. Additionally, you can also earn coupon due to the users track record.</p>
+            This is a marketplace site for selling and buying home furniture products. one can add to the cart, checkout. Additionally, you can also earn coupon due to the users track record.</p>
         </div>
       </div>
       </section>
